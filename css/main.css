@@ -1,0 +1,38 @@
+body{
+    margin-left : 5%;
+    margin-right : 5%;
+}
+h3{
+    color : maroon;
+}
+#update{
+    display : none;
+}
+.table{
+  margin-left:10%;
+    margin-right:10%;
+    width:60%;
+   
+}
+table td{
+    border-bottom:1px solid gray;
+    padding:10px;
+}
+table tr:nth-child(even){
+    background-color:#f2f2f2;
+}
+table td:hover{
+    background-color:gray; 
+}
+input{
+    width:200px;
+    height:30px;
+    border:1px solid blue;
+}
+table td button{
+    border-width: medium;
+    background-color:red;
+    color:white;
+    height: 20px;
+
+}
